@@ -6,31 +6,34 @@
   <title>Chào mừng bạn!</title>
   <style>
     body {
-      background-color: #f0f8ff;
-      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f0f8ff, #d0e6ff);
+      font-family: 'Segoe UI', sans-serif;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
       flex-direction: column;
-      animation: fadeIn 2s;
+      animation: fadeIn 1s;
+      text-align: center;
     }
 
     h1 {
       color: #2c3e50;
-      font-size: 2.5em;
+      font-size: 3em;
       animation: slideIn 1.5s ease-out;
+      margin: 0;
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 1.3em;
       color: #555;
+      margin-top: 10px;
     }
 
     @keyframes slideIn {
       from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(30px);
       }
       to {
         opacity: 1;
@@ -46,11 +49,11 @@
   <script>
     setTimeout(function() {
       window.location.href = "https://drive.google.com/drive/folders/123Ci5ApE6S0fM9IRGcon4KzY2Ks3pZ1M?usp=drive_link";
-    }, 4000);
+    }, 4000); // 4 giây chuyển hướng
   </script>
 </head>
 <body>
   <h1>🎉 Chào mừng bạn!</h1>
-  <p>Đang chuyển hướng đến tài liệu của bạn...</p>
+  <p>Chúng tôi đang đưa bạn đến tài liệu cần thiết...</p>
 </body>
 </html>
